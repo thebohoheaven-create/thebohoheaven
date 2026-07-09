@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Boho Heaven</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#FAF6F0;
+color:#3C342F;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:white;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-family:'Cormorant Garamond',serif;
+font-size:36px;
+font-weight:bold;
+}
+
+nav a{
+margin-left:30px;
+text-decoration:none;
+color:#444;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:70px;
+font-family:'Cormorant Garamond',serif;
+}
+
+.hero p{
+font-size:22px;
+margin:20px 0;
+}
+
+.btn{
+display:inline-block;
+background:#B88A5A;
+padding:15px 40px;
+border-radius:40px;
+text-decoration:none;
+color:white;
+font-weight:600;
+}
+
+section{
+padding:80px 8%;
+}
+
+h2{
+font-size:42px;
+text-align:center;
+margin-bottom:40px;
+font-family:'Cormorant Garamond',serif;
+}
+
+.categories{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+footer{
+background:#3C342F;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+The Boho Heaven
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>The Boho Heaven</h1>
+
+<p>Boho Living Starts Here.</p>
+
+<a class="btn" href="https://wa.me/">Order on WhatsApp</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Shop by Category</h2>
+
+<div class="categories">
+
+<div class="card">Photo Frames</div>
+
+<div class="card">Wall Décor</div>
+
+<div class="card">Macramé</div>
+
+<div class="card">Gift Collection</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 The Boho Heaven
+
+</footer>
+
+</body>
+</html>
